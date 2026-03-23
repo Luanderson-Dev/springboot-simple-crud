@@ -1,6 +1,6 @@
 package br.dev.luanderson.simplecrudemplyees.dtos;
 
-public record EmployeeDto(
+public record EmployeeResponseDto(
         Long id,
         String email,
         String name,
