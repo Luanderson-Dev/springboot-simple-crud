@@ -1,6 +1,7 @@
 package br.dev.luanderson.simplecrudemplyees.controllers;
 
-import br.dev.luanderson.simplecrudemplyees.dtos.EmployeeDto;
+import br.dev.luanderson.simplecrudemplyees.dtos.EmployeeRequestDto;
+import br.dev.luanderson.simplecrudemplyees.dtos.EmployeeResponseDto;
 import br.dev.luanderson.simplecrudemplyees.services.EmployeeService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -18,22 +19,22 @@ public class EmployeeController {
 
     @Operation(summary = "Get employee by ID")
     @GetMapping("/{id}")
-    public ResponseEntity<EmployeeDto> getEmployeeById(@PathVariable Long id) {
-        EmployeeDto employeeDto = employeeService.getEmployeeById(id);
+    public ResponseEntity<EmployeeResponseDto> getEmployeeById(@PathVariable Long id) {
+        EmployeeResponseDto employeeDto = employeeService.getEmployeeById(id);
         return ResponseEntity.ok(employeeDto);
     }
 
     @Operation(summary = "Create a new employee")
     @PostMapping
-    public ResponseEntity<EmployeeDto> createNewEmployee(@RequestBody EmployeeDto employeeDto) {
-        EmployeeDto createdEmployee = employeeService.createNewEmployee(employeeDto);
+    public ResponseEntity<EmployeeResponseDto> createNewEmployee(@RequestBody EmployeeRequestDto employeeDto) {
+        EmployeeResponseDto createdEmployee = employeeService.createNewEmployee(employeeDto);
         return new ResponseEntity<>(createdEmployee, HttpStatus.CREATED);
     }
 
     @Operation(summary = "Update an existing employee")
     @PutMapping("/{id}")
-    public ResponseEntity<EmployeeDto> updateEmployee(@PathVariable Long id, @RequestBody EmployeeDto employeeDto) {
-        EmployeeDto updatedEmployee = employeeService.updateEmployee(id, employeeDto);
+    public ResponseEntity<EmployeeResponseDto> updateEmployee(@PathVariable Long id, @RequestBody EmployeeRequestDto employeeDto) {
+        EmployeeResponseDto updatedEmployee = employeeService.updateEmployee(id, employeeDto);
         return ResponseEntity.ok(updatedEmployee);
     }
 
