@@ -1,4 +1,4 @@
-package br.dev.luanderson.simplecrudemplyees.entities;
+package br.dev.luanderson.simplecrudemployees.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package br.dev.luanderson.simplecrudemplyees.exceptions;
+package br.dev.luanderson.simplecrudemployees.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

@@ -1,8 +1,8 @@
-package br.dev.luanderson.simplecrudemplyees.controllers;
+package br.dev.luanderson.simplecrudemployees.controllers;
 
-import br.dev.luanderson.simplecrudemplyees.dtos.EmployeeRequestDto;
-import br.dev.luanderson.simplecrudemplyees.dtos.EmployeeResponseDto;
-import br.dev.luanderson.simplecrudemplyees.services.EmployeeService;
+import br.dev.luanderson.simplecrudemployees.dtos.EmployeeRequestDto;
+import br.dev.luanderson.simplecrudemployees.dtos.EmployeeResponseDto;
+import br.dev.luanderson.simplecrudemployees.services.EmployeeService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

@@ -1,11 +1,11 @@
-package br.dev.luanderson.simplecrudemplyees.services;
+package br.dev.luanderson.simplecrudemployees.services;
 
-import br.dev.luanderson.simplecrudemplyees.dtos.EmployeeRequestDto;
-import br.dev.luanderson.simplecrudemplyees.dtos.EmployeeResponseDto;
-import br.dev.luanderson.simplecrudemplyees.entities.Employee;
-import br.dev.luanderson.simplecrudemplyees.exceptions.ResourceNotFoundException;
-import br.dev.luanderson.simplecrudemplyees.mapper.EmployeeMapper;
-import br.dev.luanderson.simplecrudemplyees.repositories.EmployeeRepository;
+import br.dev.luanderson.simplecrudemployees.dtos.EmployeeRequestDto;
+import br.dev.luanderson.simplecrudemployees.dtos.EmployeeResponseDto;
+import br.dev.luanderson.simplecrudemployees.entities.Employee;
+import br.dev.luanderson.simplecrudemployees.exceptions.ResourceNotFoundException;
+import br.dev.luanderson.simplecrudemployees.mapper.EmployeeMapper;
+import br.dev.luanderson.simplecrudemployees.repositories.EmployeeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
