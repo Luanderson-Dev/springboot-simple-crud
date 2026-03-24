@@ -1,4 +1,4 @@
-package br.dev.luanderson.simplecrudemplyees.config;
+package br.dev.luanderson.simplecrudemployees.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;

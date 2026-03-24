@@ -1,13 +1,13 @@
-package br.dev.luanderson.simplecrudemplyees;
+package br.dev.luanderson.simplecrudemployees;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SimplecrudemplyeesApplication {
+public class SimplecrudemployeesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimplecrudemplyeesApplication.class, args);
+		SpringApplication.run(SimplecrudemployeesApplication.class, args);
 	}
 
 }

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.dev.luanderson</groupId>
-	<artifactId>simplecrudemplyees</artifactId>
+	<artifactId>simplecrudemployees</artifactId>
 	<version>1.0.0</version>
 	<name/>
 	<description/>

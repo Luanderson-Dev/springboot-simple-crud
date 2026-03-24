@@ -1,4 +1,4 @@
-package br.dev.luanderson.simplecrudemplyees.dtos;
+package br.dev.luanderson.simplecrudemployees.dtos;
 
 public record EmployeeRequestDto(
    String email,

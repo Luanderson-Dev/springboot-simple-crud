@@ -1,6 +1,6 @@
-package br.dev.luanderson.simplecrudemplyees.advices;
+package br.dev.luanderson.simplecrudemployees.advices;
 
-import br.dev.luanderson.simplecrudemplyees.exceptions.ResourceNotFoundException;
+import br.dev.luanderson.simplecrudemployees.exceptions.ResourceNotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

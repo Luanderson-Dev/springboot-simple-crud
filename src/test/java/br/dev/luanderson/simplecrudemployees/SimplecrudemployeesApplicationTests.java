@@ -1,10 +1,10 @@
-package br.dev.luanderson.simplecrudemplyees;
+package br.dev.luanderson.simplecrudemployees;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SimplecrudemplyeesApplicationTests {
+class SimplecrudemployeesApplicationTests {
 
 	@Test
 	void contextLoads() {
